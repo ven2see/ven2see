@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ven2see</title>
+  <link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bree+Serif&family=Monoton&family=Philosopher:ital,wght@1,700&family=Rubik+Mono+One&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body style="overflow-x: hidden;">
+  <header>
+    <img src="imagenes/logo.png"/>
+    <nav class="col-lg-5 col-md-5 col-sm-3">
+      <ul class="nav col-sm-12">
+        <li class="col-sm-12 active"><a href="#">Inicio</a></li>
+        <li class="col-sm-12"><a href="#dcp">Sobre mí</a></li>
+        <li class="col-sm-12"><a href="#porta">Portafolio</a></li>
+        <li class="col-sm-12"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icono icon-menu1"></span></a>
+      </div>
+  </header>
+  <div id="contenedor">
+  <main>
+    
+  </main>
+  <aside>
+    <div class="redes">
+      <span class="sp"><a href="https://www.facebook.com/Daddys.Darwg11"  target="_blank" class="i icono1" id="icono1"  style="color: #00263b">Fa</a></span>
+      <span class="sp"><a href="https://www.instagram.com/king_darwg/?hl=es-la" target="_blank" class="i icono2" id="icono2"  style="color: #00263b">Ins</a></span>
+      <span class="sp"><a class="i icono3" id="icono3"  style="color: #00263b">TG</a></span>
+    </div>
+  </aside>
+
+  <div class="texto col-lg-10 col-md-10 col-sm-10 col-xs-9 col-x-10">
+    <h2>Hola, mi nombre es</h2>
+    <h1>Darwing <span class="ape">Ernest</span></h1>
+    <h3>Soy <span class="typed"></span></h3>
+  </div>
+  </div>
+
+<section class="section-1">
+  <a id="dcp"></a>
+  <div class="card col-lg-9 col-xs-9"> 
+    <img src="imagenes/cv.svg" alt=""> 
+  </div>
+  <article class="text col-sm-6 col-xs-9 col-x-11">
+    <h4>¡HOLA!</h4>
+    <h2>Soy Darwing Ernest</h2>
+    <h3>Diseñador web freelance</h3>
+    <p>Técnico en informática. Soy estudiante de Ingeniería en ciencias computacionales. Me considero una persona amable, gentíl y un poco valiente.</p>
+
+    <p>Si le gustaría saber un poco más de mí, puede contactactarme dejándome un mensaje.</p>
+  </article>
+</section>
+
+ <div class="page-contenedor6"></div>
+    </div>
+
+    <div class="page-contenedor5">
+      <a  id="porta"></a>
+    <h1>Portafolio</h1>
+    <div class="contenedor5">
+      <div class="cnt col-xs-12" >
+        <img src="imagenes/p3.jpg" alt="" >
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+      <div class="cnt col-xs-10">
+        <img src="imagenes/p2.jpg" alt="" >
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+      <div class="cnt col-xs-10">
+        <img src="imagenes/p1.jpg" alt="" >
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+      <div class="cnt col-xs-10">
+        <img src="imagenes/p4.jpg" alt="" >
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+      <div class="cnt col-xs-10">
+        <img src="imagenes/p5.jpg" alt="" >
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+      <div class="cnt col-xs-10">
+        <img src="imagenes/p6.jpg" alt="" >
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+    </div>
+  </div>
+
+<footer>
+  <div class="redes2">
+    <a><span class="icono icon-facebook"></span></a>
+    <a><span class="icono icon-instagram"></span></a>
+    <a><span class="icono icon-twitter"></span></a>
+    <a><span class="icono icon-telegram"></span></a>
+  </div>
+    <h2>&copy;22 Design by <span class="d1">Ven2see</span></h2>
+  </footer>
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    const typed = new Typed('.typed', {
+      strings: ['<i class="nombre">Desarrollador web</i>'
+      , 'Diseñador web'
+      ],
+
+  //stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
+  typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+  startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
+  backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
+  smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
+  shuffle: false, // Alterar el orden en el que escribe las palabras.
+  backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
+  loop: true, // Repetir el array de strings
+  loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
+  showCursor: true, // Mostrar cursor palpitanto
+  cursorChar: '|', // Caracter para el cursor
+  contentType: 'html', // 'html' o 'null' para texto sin formato
+    });
+  </script>
+
+<script>
+
+  $( ".icono1" ).mouseover(function() {
+      document.getElementById("icono1").innerHTML = "Facebook";
+      document.getElementById("icono2").style.display = "none";
+      document.getElementById("icono3").style.display = "none";
+
+
+     });
+
+      $( ".icono2" ).mouseover(function() {
+      document.getElementById("icono2").innerHTML = "Instagram";
+      document.getElementById("icono1").style.display = "none";
+      document.getElementById("icono3").style.display = "none";
+     });
+
+       $( ".icono3" ).mouseover(function() {
+      document.getElementById("icono3").innerHTML = "Telegram";
+      document.getElementById("icono1").style.display = "none";
+      document.getElementById("icono2").style.display = "none";
+     });
+
+     $( "span" ).mouseout(function() {
+      document.getElementById("icono1").innerHTML = "Fa";
+      document.getElementById("icono2").innerHTML = "Ins";
+      document.getElementById("icono3").innerHTML = "TG";
+      document.getElementById("icono2").style.display = "flex";
+      document.getElementById("icono3").style.display = "flex";
+      document.getElementById("icono1").style.display = "flex";
+
+     });
+</script>
+
+<script>
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header")
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+
+    $(document).on('click', 'nav ul li', function(){
+
+      $(this).addClass('active').siblings().removeClass('active')
+    })
+  </script>
+
+
+  <script>
+    $(document).ready(main);
+
+var contador = 1;
+
+function main(){
+   $('.menu_bar').click(function(){
+     if(contador == 1){
+      $('nav').animate({
+             right: '0'
+         });
+         contador = 0;
+    }else {
+       contador = 1;
+       $('nav').animate({
+         right: '-100%'
+      })
+    }
+  
+     });
+
+};
+
+  </script>
+</body>
+</html>
