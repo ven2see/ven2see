@@ -46,7 +46,7 @@ header label {
 }
 
 header nav {
-	width: 36%;
+	width: 30%;
 	margin: 5px 0px 5px 10px;
 	display: flex;
 	justify-content: flex-end;
